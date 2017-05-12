@@ -15,7 +15,16 @@ For now, see [this post](https://svens.blog/2016/06/15/my-complete-atom-io-packa
 * git-plus
 * markdown-writer
 * linter-markdown
+* Advanced Open File
+* Markdown Deluxe
+* File Icons
+* Markdown Toolbar
 
 ## Markdown deluxe config
 * **Font**: Segoe UI
-* **Width**: 60em
+* **Width**: 60em (_45em, default, for 1080p screen._)
+
+## Toolbar Config
+* **Icon size**: 16 px
+
+- [ ] Todo, find a way to sync packages across multiple installs.

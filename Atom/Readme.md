@@ -12,3 +12,4 @@ List of extensions for atom.
 * flex-tool-bar
 * git-plus
 * markdown-writer
+* linter-markdown

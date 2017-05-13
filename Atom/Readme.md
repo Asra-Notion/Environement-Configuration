@@ -10,19 +10,18 @@ For now, see [this post](https://svens.blog/2016/06/15/my-complete-atom-io-packa
 * ~~atom-visual-studio-code-light-ui~~
 
 ### Packages
-* tool-bar
-* ~~flex-tool-bar~~
-* git-plus
+* advanced-open-file
+* file-icons
+* markdown-deluxe
 * markdown-writer
-* linter-markdown
-* Advanced Open File
-* Markdown Deluxe
-* File Icons
-* Markdown Toolbar
+* tool-bar
+* tool-bar-markdown-writer
 * uglify-html
+* ~~flex-tool-bar~~
+* ~~linter-markdown~~
 
 ## Markdown deluxe config
-* **Font**: Segoe UI
+* **Font**: Segoe UI (_Windows_), sans-serif (_Mac OS_)
 * **Width**: 60em (_45em, default, for 1080p screen._)
 
 ## Toolbar Config

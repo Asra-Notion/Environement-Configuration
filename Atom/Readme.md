@@ -28,3 +28,8 @@ For now, see [this post](https://svens.blog/2016/06/15/my-complete-atom-io-packa
 * **Icon size**: 16 px
 
 - [ ] Todo, find a way to sync packages across multiple installs.
+
+## UI config
+* **Theme**: One Light
+* **Font Size**: 13
+* **Layout mode**: Compact

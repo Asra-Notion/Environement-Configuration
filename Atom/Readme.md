@@ -19,6 +19,7 @@ For now, see [this post](https://svens.blog/2016/06/15/my-complete-atom-io-packa
 * Markdown Deluxe
 * File Icons
 * Markdown Toolbar
+* uglify-html
 
 ## Markdown deluxe config
 * **Font**: Segoe UI

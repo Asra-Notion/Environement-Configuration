@@ -27,6 +27,16 @@ Modifications have been made to 2 packages, tool-bar-main and tool-bar-markdown-
 ## Package configuration
 Several packages have some specific configuration. Here are the different settings.
 
+### Markdown preview
+* Check the use github.com style.
+* Add the folowing css to the `styles.less`.
+
+```css
+.markdown-preview.markdown-preview {
+  font-family: 'Segoe UI'
+}
+```
+
 ### Markdown deluxe config
 * **Font**: Segoe UI (_Windows_), sans-serif (_Mac OS_)
 * **Width**: 60em (_45em, default, for 1080p screen._)

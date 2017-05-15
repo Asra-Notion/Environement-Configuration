@@ -13,6 +13,7 @@ For now, see [this post](https://svens.blog/2016/06/15/my-complete-atom-io-packa
 * advanced-open-file
 * file-icons
 * markdown-deluxe
+* markdown-pdf
 * markdown-writer
 * tool-bar
 * tool-bar-main
@@ -34,3 +35,7 @@ For now, see [this post](https://svens.blog/2016/06/15/my-complete-atom-io-packa
 * **Theme**: One Light
 * **Font Size**: 13
 * **Layout mode**: Compact
+
+## Markdown PDF
+* **Margin**: 20mm (_2cm_)
+* **Page Format**: Letter

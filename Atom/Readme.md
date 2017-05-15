@@ -15,6 +15,7 @@ For now, see [this post](https://svens.blog/2016/06/15/my-complete-atom-io-packa
 * markdown-deluxe
 * markdown-writer
 * tool-bar
+* tool-bar-main
 * tool-bar-markdown-writer
 * uglify-html
 * ~~flex-tool-bar~~

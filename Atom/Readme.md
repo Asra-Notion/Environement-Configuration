@@ -22,20 +22,28 @@ For now, see [this post](https://svens.blog/2016/06/15/my-complete-atom-io-packa
 * ~~flex-tool-bar~~
 * ~~linter-markdown~~
 
-## Markdown deluxe config
+Modifications have been made to 2 packages, tool-bar-main and tool-bar-markdown-writer. The files \*.coffee are to replace the files in the package folder located at : `$Home/.atom/packages/<Package Name>`.
+
+## Package configuration
+Several packages have some specific configuration. Here are the different settings.
+
+### Markdown deluxe config
 * **Font**: Segoe UI (_Windows_), sans-serif (_Mac OS_)
 * **Width**: 60em (_45em, default, for 1080p screen._)
 
-## Toolbar Config
+### Toolbar Config
 * **Icon size**: 16 px
 
 - [ ] Todo, find a way to sync packages across multiple installs.
 
-## UI config
+### UI config
 * **Theme**: One Light
 * **Font Size**: 13
 * **Layout mode**: Compact
 
-## Markdown PDF
+### Markdown PDF
 * **Margin**: 20mm (_2cm_)
 * **Page Format**: Letter
+
+## Keymaps
+The `keymap.cson` provides all the custom keymaps to be copied in the `.atom` folder.

@@ -81,17 +81,6 @@ module.exports =
     },
     { 'type': 'separator' },
     {
-      'icon': 'format-header-decrease',
-      'label': 'Jump to Previous Heading'
-      'command': 'markdown-writer:jump-to-previous-heading'
-    },
-    {
-      'icon': 'format-header-increase',
-      'label': 'Jump to Next Heading'
-      'command': 'markdown-writer:jump-to-next-heading'
-    },
-    { 'type': 'separator' },
-    {
       'icon': 'table',
       'label': 'Insert Table',
       'command': 'markdown-writer:insert-table'

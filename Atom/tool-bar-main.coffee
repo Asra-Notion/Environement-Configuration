@@ -11,6 +11,14 @@ module.exports =
     @toolBar = toolBar 'main-tool-bar'
 
     @toolBar.addButton
+      icon: 'view-list'
+      callback: 'tree-view:toggle'
+      tooltip: 'Toggle Tree View'
+      iconset: 'mdi'
+
+    @toolBar.addSpacer()
+
+    @toolBar.addButton
       icon: 'document'
       callback: 'application:new-file'
       tooltip: 'New File'
@@ -41,11 +49,6 @@ module.exports =
 
     @toolBar.addSpacer()
 
-    @toolBar.addButton
-      icon: 'view-list'
-      callback: 'tree-view:toggle'
-      tooltip: 'Toggle Tree View'
-      iconset: 'mdi'
     @toolBar.addButton
       icon: 'console'
       callback: 'command-palette:toggle'

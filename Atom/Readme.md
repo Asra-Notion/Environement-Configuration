@@ -11,7 +11,7 @@ For now, see [this post](https://svens.blog/2016/06/15/my-complete-atom-io-packa
 * ~~kary-foundation-light~~
 * github-atom-light-syntax
 
-- [ ] TODO: Fix github-atom-light-syntax theme so it's not depricated.
+- [x] TODO: Fix github-atom-light-syntax theme so it's not depricated.
 
 ### Packages
 * advanced-open-file

@@ -61,3 +61,11 @@ Several packages have some specific configuration. Here are the different settin
 
 ## Keymaps
 The `keymap.cson` provides all the custom keymaps to be copied in the `.atom` folder.
+
+## Future extensions
+The following extensions could prove useful, further investigation is required before selecting them.
+
+- project-manager
+- linter-write-good
+- linter
+- atom-beautify

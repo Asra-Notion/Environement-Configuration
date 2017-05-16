@@ -8,6 +8,10 @@ For now, see [this post](https://svens.blog/2016/06/15/my-complete-atom-io-packa
 ### Themes
 * ~~github-atom-light-syntax~~
 * ~~atom-visual-studio-code-light-ui~~
+* ~~kary-foundation-light~~
+* github-atom-light-syntax
+
+- [ ] TODO: Fix github-atom-light-syntax theme so it's not depricated.
 
 ### Packages
 * advanced-open-file

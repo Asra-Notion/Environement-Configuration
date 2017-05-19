@@ -1,6 +1,6 @@
 # Visual Studio Code
 
-Version _1.12.1_
+_Version 1.12.1_
 
 ## Extensions
 
@@ -10,6 +10,8 @@ Version _1.12.1_
 * Visual Studio Keymap
 * vscode-icons
 
+_Potentially_  
+Currently has some issues with rules that aren't necessary.
 
 * Markdown lint (_Usefull for making good markdown, might not be usefull all the time._)
 

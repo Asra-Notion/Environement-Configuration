@@ -10,6 +10,7 @@ Version _1.12.1_
 * Visual Studio Keymap
 * vscode-icons
 
+
 * Markdown lint (_Usefull for making good markdown, might not be usefull all the time._)
 
 ### Note

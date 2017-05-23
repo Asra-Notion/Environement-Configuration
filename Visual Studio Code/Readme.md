@@ -52,4 +52,21 @@ Joining lines is now built in the editor since version 1.8. Shortcut needs to be
 }
 ```
 
+## Keybindings
+The following keybinds define the command for collapsing all lines into one long string, in order to "minify" the html. The second one is for the extension copy markdown as html which allow the html render of the markdown file to be copied.
+
+```json
+[
+    {
+        "key": "ctrl+k ctrl+j",
+        "command": "editor.action.joinLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+l",
+        "command": "extension.copyAsHtml",
+        "when": "editorTextFocus"
+    }
+]
+```
 <!--TODO: Chage icon theme to vscode-icons-->

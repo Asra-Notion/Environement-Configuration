@@ -8,7 +8,8 @@ _Version 1.12.1_
 * Markdown PDF
 * Copy Markdown as HTML
 * Visual Studio Keymap
-* vscode-icons
+* ~~vscode-icons~~
+* file-icons
 
 _Potentially_  
 Currently has some issues with rules that aren't necessary.
@@ -69,4 +70,4 @@ The following keybinds define the command for collapsing all lines into one long
     }
 ]
 ```
-<!--TODO: Chage icon theme to vscode-icons-->
+<!--TODO: Chage icon theme to file-icons-->

@@ -1,8 +1,8 @@
 {
     "workbench.colorTheme": "Visual Studio Light",
-    "workbench.iconTheme": "vs-minimal",
+    "editor.fontSize": 13,
     "[markdown]": {
-        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrap": "bounded",
         "editor.wordWrapColumn": 120,
         "editor.quickSuggestions": false
     }

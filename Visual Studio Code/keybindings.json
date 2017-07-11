@@ -1,4 +1,4 @@
-// Place your key bindings in this file to overwrite the defaults
+// Placez vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
 [
     {
         "key": "ctrl+k ctrl+j",
@@ -8,6 +8,19 @@
     {
         "key": "ctrl+k ctrl+l",
         "command": "extension.copyAsHtml",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "ctrl+k ctrl+d",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus"
+    },{
+        "key": "ctrl+alt+enter",
+        "command": "workbench.action.terminal.focus",
         "when": "editorTextFocus"
     }
 ]

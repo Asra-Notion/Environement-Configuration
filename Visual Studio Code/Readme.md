@@ -1,6 +1,6 @@
 # Visual Studio Code
 
-_Version 1.12.1_
+_Version 1.14.0_
 
 ## Extensions
 
@@ -9,7 +9,7 @@ _Version 1.12.1_
 * Copy Markdown as HTML
 * Visual Studio Keymap
 * ~~vscode-icons~~
-* file-icons
+* ~~file-icons~~
 
 _Potentially_  
 Currently has some issues with rules that aren't necessary.
@@ -17,11 +17,11 @@ Currently has some issues with rules that aren't necessary.
 * Markdown lint (_Useful for making good markdown, might not be useful all the time._)
 
 ### Note
+_Issue is fixed in 1.15 insider preview_
 
 Version 1.9 seems to be the last one working behind a proxy. Bug needs to be investigated further each update. For 1.9 some settings aren't saved to the json file. Theme should be set to Visual Studio Light, and icons to vscode-icons once plugin is installed.
 
 Joining lines is now built in the editor since version 1.8. Shortcut needs to be assigned.
-<!--TODO: Assign shortcut to join lines-->
 
 ## Settings file
 

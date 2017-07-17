@@ -1,0 +1,17 @@
+// Placez vos paramètres dans ce fichier pour remplacer les paramètres par défaut et les paramètres utilisateur.
+{
+    "markdown-pdf.format": "Letter",
+    "markdown-pdf.type": "pdf",
+    "markdown-pdf.border.top": "2cm",
+    "markdown-pdf.border.bottom": "2cm",
+    "markdown-pdf.border.right": "2cm",
+    "markdown-pdf.border.left": "2cm",
+    "markdown-pdf.header.contents": "",
+    "markdown-pdf.header.height": "",
+    "markdown-pdf.footer.contents": "",
+    "markdown-pdf.footer.height": "",
+    "markdown-pdf.styles": [
+        ".vscode/style.css"
+    ],
+    "cSpell.enabled": true
+}

@@ -11,3 +11,9 @@ h1, h2, h3, h4, h5, h6 {
 	color: #4080D0;
 	font-weight: normal;
 }
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 11px;
+	line-height: 17px;
+}

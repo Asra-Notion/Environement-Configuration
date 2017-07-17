@@ -8,13 +8,7 @@ _Version 1.14.0_
 * Markdown PDF
 * Copy Markdown as HTML
 * Visual Studio Keymap
-* ~~vscode-icons~~
-* ~~file-icons~~
-
-_Potentially_  
-Currently has some issues with rules that aren't necessary.
-
-* Markdown lint (_Useful for making good markdown, might not be useful all the time._)
+* Code Spellchecker
 
 ### Note
 _Issue is fixed in 1.15 insider preview_
@@ -26,25 +20,9 @@ Joining lines is now built in the editor since version 1.8. Shortcut needs to be
 ## Settings file
 
 ```json
-// Version 1.9 settings
-{
-    "update.channel": "none",
-    "editor.fontSize": 14,
-    "editor.wrappingColumn": 0,
-    "markdown-pdf.type": "html",
-    "[markdown]": {
-        "editor.wordWrap": true,
-        "editor.wrappingColumn": 120,
-        "editor.quickSuggestions": false
-    }
-}
-```
-
-```json
 // Version 1.12.1 and up
 {
     "workbench.colorTheme": "Visual Studio Light",
-    "workbench.iconTheme": "vs-minimal",
     "[markdown]": {
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 120,
@@ -70,4 +48,49 @@ The following keybindings define the command for collapsing all lines into one l
     }
 ]
 ```
-<!--TODO: Change icon theme to file-icons-->
+
+## Markdown PDF Extension
+The markdown pdf extension offers a lot of customization options. Customizing them allows for a "perfect" markdown experience.
+
+### Workspace / user settings
+The settings can be set per workspace or globally, for markdown, workspace / repo settings could be preferred. Here are the "common" settings, *based on Terra-Nova git repository configuration*.
+
+```js
+{
+    "markdown-pdf.format": "Letter",
+    "markdown-pdf.type": "pdf",
+    "markdown-pdf.border.top": "2cm",
+    "markdown-pdf.border.bottom": "2cm",
+    "markdown-pdf.border.right": "2cm",
+    "markdown-pdf.border.left": "2cm",
+    "markdown-pdf.header.contents": "",
+    "markdown-pdf.header.height": "",
+    "markdown-pdf.footer.contents": "",
+    "markdown-pdf.footer.height": "",
+    "markdown-pdf.styles": [
+        ".vscode/style.css"
+    ],
+    "cSpell.enabled": true
+}
+```
+
+### Pdf styling
+The pdf export can also be customized, fonts etc. Doing so should be done per workspace for better customization of the exported file.
+
+_Here is an example config based on Terra-Nova project_.
+
+```css
+body {
+	font-family: "Cambria", 'Times New Roman', Times, serif;
+	font-size: 12px;
+	padding: 0 12px;
+	line-height: 18px;
+	word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	color: #4080D0;
+	font-weight: normal;
+}
+```

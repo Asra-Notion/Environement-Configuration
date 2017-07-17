@@ -1,0 +1,12 @@
+// Version 1.9 and before settings
+{
+    "update.channel": "none",
+    "editor.fontSize": 14,
+    "editor.wrappingColumn": 0,
+    "markdown-pdf.type": "html",
+    "[markdown]": {
+        "editor.wordWrap": true,
+        "editor.wrappingColumn": 120,
+        "editor.quickSuggestions": false
+    }
+}

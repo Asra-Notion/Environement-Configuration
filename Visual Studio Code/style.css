@@ -1,0 +1,13 @@
+body {
+	font-family: "Cambria", 'Times New Roman', Times, serif;
+	font-size: 12px;
+	padding: 0 12px;
+	line-height: 18px;
+	word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	color: #4080D0;
+	font-weight: normal;
+}

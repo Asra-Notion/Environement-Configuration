@@ -1,0 +1,77 @@
+{
+    // Enable Auto convert on save
+    "markdown-pdf.convertOnSave": false,
+
+    // Excluded file name of convertOnSave option
+    "markdown-pdf.convertOnSaveExclude": [
+        "^work",
+        "work.md$",
+        "work|test",
+        "[0-9][0-9][0-9][0-9]-work",
+        "work\\d"  // \d -> \\d. All '\' need to be written as '\\'.
+    ],
+
+    // Output Directory
+    "markdown-pdf.outputDirectory": "C:\\work",
+
+    // A list of local paths to the stylesheets to use from the markdown-pdf
+    "markdown-pdf.styles": [
+        "C:\\Users\\<USERNAME>\\Documents\\markdown-pdf.css",  // OK (Windows)'\\'. (Windows)
+        "C:/Users/<USERNAME>/Documents/markdown-pdf.css",      // OK (Windows)
+        "/home/<USERNAME>/settings/markdown-pdf.css",          // OK
+        ".vscode\\markdown-pdf.css",                           // OK. Relative path (Windows)
+        ".vscode/markdown-pdf.css",                            // OK. Relative path
+        "markdown-pdf.css.css"                                 // OK. Relative path
+    ],
+
+    // Set the style file name. for example: github.css, monokai.css ...
+    // fine name list : https://github.com/isagalaev/highlight.js/tree/master/src/styles
+    // demo site : https://highlightjs.org/static/demo/
+    "markdown-pdf.highlightStyle": "github.css",
+
+    // Enable Syntax highlighting
+    "markdown-pdf.highlight": true,
+
+    // Enable line breaks
+    "markdown-pdf.breaks": false,
+
+    // Enable emoji. http://www.webpagefx.com/tools/emoji-cheat-sheet/
+    "markdown-pdf.emoji": true,
+
+    // Output format: pdf, html, png, jpeg
+    "markdown-pdf.type": "pdf",
+
+    // Only used for types png & jpeg
+    "markdown-pdf.quality": 90,
+
+    // Page Option. Page size: A3, A4, A5, Legal, Letter, Tabloid
+    "markdown-pdf.format": "A4",
+
+    // Page Option. portrait or landscape
+    "markdown-pdf.orientation": "portrait",
+
+    // Page Option. Border Top. units: mm, cm, in, px
+    "markdown-pdf.border.top": "1.5cm",
+
+    // Page Option. Border bottom. units: mm, cm, in, px
+    "markdown-pdf.border.bottom": "1cm",
+
+    // Page Option. Border right. units: mm, cm, in, px
+    "markdown-pdf.border.right": "1cm",
+
+    // Page Option. Border left. units: mm, cm, in, px
+    "markdown-pdf.border.left": "1cm",
+
+    // Header contents
+    "markdown-pdf.header.contents": "",
+
+    // Header height. units: mm, cm, in, px
+    "markdown-pdf.header.height": "",
+
+    // Footer contents
+    "markdown-pdf.footer.contents": "<div style=\"text-align: center;\">{{page}}/{{pages}}</div>",
+
+    // Footer height. units: mm, cm, in, px
+    "markdown-pdf.footer.height": "0.8cm"
+
+}

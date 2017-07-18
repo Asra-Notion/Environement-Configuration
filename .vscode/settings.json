@@ -13,5 +13,8 @@
     "markdown-pdf.styles": [
         ".vscode/style.css"
     ],
-    "cSpell.enabled": true
+    "cSpell.enabled": true,
+    "markdown-pdf.highlightStyle": "github.css"
 }
+
+// "markdown-pdf.highlightStyle": "vs.css"

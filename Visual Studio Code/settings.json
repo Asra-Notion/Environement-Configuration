@@ -1,5 +1,11 @@
 // Place your settings in this file to overwrite default and user settings.
 {
+    // Editor settings
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "workbench.colorTheme": "Visual Studio Light",
+    
+    // Markdown pdf settings
     "markdown-pdf.format": "Letter",
     "markdown-pdf.type": "pdf",
     "markdown-pdf.border.top": "2cm",
@@ -13,8 +19,11 @@
     "markdown-pdf.styles": [
         ".vscode/style.css"
     ],
+    
+    // Spell check
     "cSpell.enabled": true,
-    "workbench.colorTheme": "Visual Studio Light",
+    
+    // Markdown language specific
     "[markdown]": {
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 120,

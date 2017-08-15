@@ -7,15 +7,8 @@ _Version 1.14.0_
 * Markdown Shortcuts
 * Markdown PDF
 * Copy Markdown as HTML
-* Visual Studio Keymap
-* Code Spellchecker
+* Code Spellchecker `cspell`
 
-### Note
-_Issue is fixed in 1.15 insider preview_
-
-Version 1.9 seems to be the last one working behind a proxy. Bug needs to be investigated further each update. For 1.9 some settings aren't saved to the json file. Theme should be set to Visual Studio Light, and icons to vscode-icons once plugin is installed.
-
-Joining lines is now built in the editor since version 1.8. Shortcut needs to be assigned.
 
 ## Settings file
 

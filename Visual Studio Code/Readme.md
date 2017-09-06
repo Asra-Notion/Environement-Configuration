@@ -8,7 +8,7 @@ _Version 1.14.0_
 * Markdown PDF
 * Copy Markdown as HTML
 * Code Spellchecker `cspell`
-
+* vscode-pandoc
 
 ## Settings file
 
@@ -42,13 +42,22 @@ The following keybindings define the command for collapsing all lines into one l
 ]
 ```
 
+## Vscode Pandoc
+The extension allows seemless use of pandoc to render pdf files. This setting can be set per workspace or globaly.
+
+```json
+{
+    "pandoc.pdfOptString": "-V geometry:letterpaper -V geometry:margin=3cm"
+}
+```
+
 ## Markdown PDF Extension
 The markdown pdf extension offers a lot of customization options. Customizing them allows for a "perfect" markdown experience.
 
 ### Workspace / user settings
 The settings can be set per workspace or globally, for markdown, workspace / repo settings could be preferred. Here are the "common" settings, *based on Terra-Nova git repository configuration*.
 
-```js
+```json
 {
     "markdown-pdf.format": "Letter",
     "markdown-pdf.type": "pdf",

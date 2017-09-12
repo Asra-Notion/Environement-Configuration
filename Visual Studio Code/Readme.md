@@ -43,7 +43,7 @@ The following keybindings define the command for collapsing all lines into one l
 ```
 
 ## Vscode Pandoc
-The extension allows seemless use of pandoc to render pdf files. This setting can be set per workspace or globaly.
+The extension allows seemless use of pandoc to render pdf files. This setting can be set per workspace or globaly. In addition of using pandoc to render your pdf, the extension also allows for use of command line arguments. Adding the following setting will ensure that the paper size is letter and that the margins are smaller than pandoc's default.
 
 ```json
 {

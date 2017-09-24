@@ -1,6 +1,6 @@
 # Visual Studio Code
 
-_Version 1.14.0_
+_Version 1.16.1_
 
 ## Extensions
 
@@ -91,8 +91,51 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", 
+    "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
 	color: #4080D0;
 	font-weight: normal;
+}
+```
+
+## Markdown custom snippets
+
+Here are 2 snippets useful for pandoc markdown files. Here is the content of the custom user snippet `markdown.json` file.
+
+```json
+{
+	"Fancy YAML Header": {
+		"prefix": "fancy head",
+		"body": [
+			"---",
+			"title: \"$1 : $2\"",
+			"author: $3",
+			"date: $4",
+			"header-includes:",
+			"    - \\usepackage{fancyhdr}",
+			"    - \\pagestyle{fancy}",
+			"    - \\fancyhead{}",
+			"    - \\fancyhead[LO,LE]{$1}",
+			"    - \\fancyhead[RO,RE]{$2}",
+			"    - \\fancyfoot{}",
+			"    - \\fancyfoot[LO,LE]{$3}",
+			"    - \\fancyfoot[RO,RE]{\\thepage}",
+			"---",
+			"$0"
+		],
+		"description": "Yaml header for pandoc class notes"
+	},
+	"Simple YAML Header": {
+		"prefix": "head",
+		"body": [
+			"---",
+			"title: \"$1\"",
+			"author: $2",
+			"date: $3",
+			"---",
+			"$0"
+		],
+		"description": "Yaml header for simple pandoc document"
+	}
 }
 ```

@@ -1,5 +1,5 @@
 # Environment configuration
-> Configuration files for every dev environment I use.
+> Configuration files for some of my dev environnements.
 
 The branch contains configuration files and examples from @the-prism
 

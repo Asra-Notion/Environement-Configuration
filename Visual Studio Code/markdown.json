@@ -14,38 +14,52 @@
             "description": "Log output to console"
         }
     */
-        "Fancy YAML Header": {
-            "prefix": "fancy head",
-            "body": [
-                "---",
-                "title: \"$1 : $2\"",
-                "author: $3",
-                "date: $4",
-                "header-includes:",
-                "    - \\usepackage{fancyhdr}",
-                "    - \\pagestyle{fancy}",
-                "    - \\fancyhead{}",
-                "    - \\fancyhead[LO,LE]{$1}",
-                "    - \\fancyhead[RO,RE]{$2}",
-                "    - \\fancyfoot{}",
-                "    - \\fancyfoot[LO,LE]{$3}",
-                "    - \\fancyfoot[RO,RE]{\\thepage}",
-                "---",
-                "$0"
-            ],
-            "description": "Yaml header for pandoc class notes"
-        },
-        "Simple YAML Header": {
-            "prefix": "head",
-            "body": [
-                "---",
-                "title: \"$1\"",
-                "author: $2",
-                "date: $3",
-                "---",
-                "$0"
-            ],
-            "description": "Yaml header for simple pandoc document"
-        }
+    "Fancy YAML Header": {
+        "prefix": "fancy head",
+        "body": [
+            "---",
+            "title: \"$1 : $2\"",
+            "author: $3",
+            "date: $4",
+            "header-includes:",
+            "    - \\usepackage{fancyhdr}",
+            "    - \\pagestyle{fancy}",
+            "    - \\fancyhead{}",
+            "    - \\fancyhead[L]{$1}",
+            "    - \\fancyhead[R]{$2}",
+            "    - \\fancyfoot{}",
+            "    - \\fancyfoot[L]{$3}",
+            "    - \\fancyfoot[R]{\\thepage}",
+            "---",
+            "$0"
+        ],
+        "description": "Yaml header for pandoc class notes"
+    },
+    "Simple YAML Header": {
+        "prefix": "head",
+        "body": [
+            "---",
+            "title: \"$1\"",
+            "author: $2",
+            "date: $3",
+            "---",
+            "$0"
+        ],
+        "description": "Yaml header for simple pandoc document"
+    },
+    "YAML for sans serif file": {
+        "prefix": "sans-head",
+        "body": [
+            "---",
+            "title: \"$1\"",
+            "author: \"$2\"",
+            "fontsize: 11pt",
+            "header-includes:",
+            "- \\usepackage{helvet}",
+            "- \\renewcommand{\\familydefault}{\\sfdefault}",
+            "---",
+            "$0"
+        ],
+        "description": "Yaml header for a sans serif pdf file"
     }
-    
+}
